@@ -9,8 +9,8 @@ python = "^3.8"
 fastapi = "^0.61.0"
 requests = "^2.24.0"
 uvicorn = "^0.11.8"
-platformdb = {git = "ssh://git@gitlab.srv.hub.litres.ru/platform/db.git", tag = "0.4.8"}
-lr = {git = "ssh://git@gitlab.srv.hub.litres.ru/platform/lr.git", rev = "0.1.7", extras = ["all"]}
+platformdb = {git = "ssh://.git", tag = "0.4.8"}
+lr = {git = "ssh://.git", rev = "0.1.7", extras = ["all"]}
 xlsxwriter = "^1.3.3"
 aiofiles = "^0.5.0"
 
