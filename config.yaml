@@ -1,0 +1,15 @@
+service_name: api
+
+app:
+  host: 127.0.0.1
+  port: 8000
+  debug: False
+  log_level: info
+  security:
+    algorithm: HS256
+    secret_key: i_am_secret
+
+db:
+  mongodb:
+    mongo:
+      uri: mongodb://user:hackme@localhost:27017
